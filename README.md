@@ -1,2 +1,1 @@
-#!/bi/bash
-pwd
+alx engineering devops 
