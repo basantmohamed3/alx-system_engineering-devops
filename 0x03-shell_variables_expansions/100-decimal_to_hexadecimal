@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%.2f\n" "$NUM"
+echo "ibase=10;obase=16;$DECIMAL" | bc
