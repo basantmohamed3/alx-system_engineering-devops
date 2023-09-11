@@ -1,2 +1,2 @@
 #!/bin/bash
-read -r DECIMAL <<< "$DECIMAL"; printf "%x\n" $DECIMAL
+printf '%x\n' $DECIMAL
