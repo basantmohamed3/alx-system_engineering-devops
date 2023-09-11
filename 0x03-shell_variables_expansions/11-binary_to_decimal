@@ -1,2 +1,2 @@
 #!/bin/bash
-BINARY=1101; printf "%d\n" "$((2#"$BINARY"))"
+(BINARY=1101; echo "$((2#${BINARY}))")
