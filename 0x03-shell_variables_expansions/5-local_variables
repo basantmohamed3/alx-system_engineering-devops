@@ -1,2 +1,2 @@
 #!/bin/bash
-(export -p; declare -F)
+( (compgen -A variable; declare -F) | sort )
